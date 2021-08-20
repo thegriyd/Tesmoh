@@ -170,8 +170,8 @@
                             $form.find('.form-submit').append(loading);
                         },
                         success: function( msg ) {
-                            var result, cls;                            
-                            if ( msg === 'Success' ) {result = 'Message Sent Successfully To Email Administrator. ( You can change the email management a very easy way to get the message of customers in the user manual )'; cls = 'msg-success'; } else {result = 'Error sending email.'; cls = 'msg-error'; } $form.prepend(
+                            var result, cls;
+                            if ( msg === 'success' ) {result = 'tMessage Sent Successfully To Email Administrator. ( You can change the email management a very easy way to get the message of customers in the user manual )'; cls = 'msg-success'; } else {result = 'Error sending email.' ; cls = 'msg-error'; } $form.prepend(
                                 $('<div />', {
                                     'class': 'flat-alert ' + cls,
                                     'text' : result
@@ -179,7 +179,6 @@
                                     $('<a class="close" href="#"><i class="fa fa-close"></i></a>')
                                 )
                             );
-
                             $form.find(':input').not('.submit').val('');
                         },
                         complete: function (xhr, status, error_thrown) {
@@ -189,7 +188,7 @@
                 }
             });
         }); // each contactform
-    };   
+    };
 
     var alertBox = function() {
         $(document).on('click', '.close', function(e) {

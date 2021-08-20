@@ -2,7 +2,8 @@
 
 // define("WEBMASTER_EMAIL", 'themesflat@gmail.com');
 //$address = "example@themeforest.net";
-$address = "themesflat@gmail.com";
+$address = "innocentp576@gmail.com";
+return echo "test out";
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $error = false;
@@ -11,6 +12,7 @@ $fields = array( 'name', 'email', 'message','url' );
 foreach ( $fields as $field ) {
 	if ( empty($_POST[$field]) || trim($_POST[$field]) == '' )
 		$error = true;
+		echo 'error true';
 }
 
 if ( !$error ) {
@@ -40,7 +42,7 @@ if ( !$error ) {
 	$headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
 	$headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
-	if(mail($address, $msg, $headers, $e_content  )) {
+	if(mail($address,"Test", $msg, $headers, $e_content  )) {
 
 		// Email has sent successfully, echo a success page.
 	
