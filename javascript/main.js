@@ -171,7 +171,7 @@
                         },
                         success: function( msg ) {
                             var result, cls;
-                            if ( msg === 'success' ) {result = 'tMessage Sent Successfully To Email Administrator. ( You can change the email management a very easy way to get the message of customers in the user manual )'; cls = 'msg-success'; } else {result = 'Error sending email.' ; cls = 'msg-error'; } $form.prepend(
+                            if ( msg === 'success' || msg === 'Success' ) {result = 'tMessage Sent Successfully To Email Administrator. ( You can change the email management a very easy way to get the message of customers in the user manual )'; cls = 'msg-success'; } else {result = 'Error sending email.' ; cls = 'msg-error'; } $form.prepend(
                                 $('<div />', {
                                     'class': 'flat-alert ' + cls,
                                     'text' : result

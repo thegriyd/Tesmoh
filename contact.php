@@ -196,13 +196,13 @@
             <div class="row">
                 <div class="col-md-12"> 
                     <div class="page-title-heading">
-                        <h1 class="title">Style 1</h1>
+                        <h1 class="title">Contact</h1>
                     </div><!-- /.page-title-captions -->  
                     <div class="breadcrumbs">
                         <ul>
                             <li class="home"><i class="fa fa-home"></i><a href="index.html">Home</a></li>
                             <li><a href="new-fullwidth.html">Contact</a></li>
-                            <li>Style 1</li>
+                            <li>Contact Us</li>
                         </ul>                   
                     </div><!-- /.breadcrumbs --> 
                 </div><!-- /.col-md-12 -->  
@@ -222,33 +222,13 @@
                 </div> 
             
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg">
                         <div class="info-box text-center">
-                            <h3>France</h3>
+                            <h3>Kenya</h3>
                             <ul>
-                                <li>John Doe, 123 Main St Chicago, IL 60626</li>
-                                <li>Email: info@greenorganic.com</li>
-                                <li>Phone: 258-556-189</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="info-box text-center">
-                            <h3>United States</h3>
-                            <ul>
-                                <li>John Doe, 123 Main St Chicago, IL 60626</li>
-                                <li>Email: info@greenorganic.com</li>
-                                <li>Phone: 258-556-189</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="info-box text-center">
-                            <h3>Viet Nam</h3>
-                            <ul>
-                                <li>John Doe, 123 Main St Chicago, IL 60626</li>
-                                <li>Email: info@greenorganic.com</li>
-                                <li>Phone: 258-556-189</li>
+                                <li>Innocent Magothe, IHIT ,Kilimani,Dennis Pritt Rd</li>
+                                <li>Email: info@tesmoh.com</li>
+                                <li>Phone: +254-722-427-4028</li>
                             </ul>
                         </div>
                     </div>
@@ -356,7 +336,7 @@
                 <div class="col-lg-3 col-sm-6 reponsive-mb30">
                     <div class="widget widget-letter">
                         <h5 class="widget-title">Newsletter</h5>
-                        <p class="info-text">Subscribe our newsletter gor get noti-fication about new updates, etc.</p>
+                        <p class="info-text">Subscribe to our newsletter.</p>
                         <form id="subscribe-form" class="flat-mailchimp" method="post" action="#" data-mailchimp="true">
                             <div class="field clearfix" id="subscribe-content">
                                 <p class="wrap-input-email">
